@@ -5,6 +5,7 @@ Database: Postgres
 # API_Heroku-Postgres
 https://backendpersonalapi.herokuapp.com/
 
+<<<<<<< HEAD
 
  //YARC [Chrome extention]
 
@@ -12,6 +13,11 @@ https://backendpersonalapi.herokuapp.com/
 https://backendpersonalapi.herokuapp.com/login/user [Method : Get]
 
 
+=======
+//View all registered user with brypt_hash password
+https://backendpersonalapi.herokuapp.com/login/user [Method : Get]
+
+>>>>>>> 6da282fbd91bd1d1ece52b819db5ee38a2756acd
 //Register as a new user with basic validator
 https://backendpersonalapi.herokuapp.com/login/signup [Method : Post]
 {
@@ -20,6 +26,9 @@ https://backendpersonalapi.herokuapp.com/login/signup [Method : Post]
     "password": "bcrypt_hashing"
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6da282fbd91bd1d1ece52b819db5ee38a2756acd
 //Register as a new user with basic validator
 https://backendpersonalapi.herokuapp.com/login/signin [Method : Post]
