@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.send("Go to:  /public  /user");
+  res.send("Welcome to Node.js Backend API, please manually select routes as stipulated:  /public  /user");
 });
 
 
