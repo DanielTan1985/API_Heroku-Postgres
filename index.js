@@ -17,15 +17,15 @@ app.use(bodyParser.json());
 
 var corsOptions = {
   // origin: "https://gentle-fortress-35413.herokuapp.com",
-  origin: "https://backendpersonalapi.herokuapp.com",
-  credentials: true,
-  optionSuccessStatus:200,
+  origin: "http://localhost:3000",
+  // credentials: true,
+  // optionSuccessStatus:200,
 };
 app.use(cors(corsOptions));
 
 
 app.all('/', cors(corsOptions), function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "https://backendpersonalapi.herokuapp.com");
+  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
   res.header("Access-Control-Allow-Headers", "X-Requested-With");
   res.send("Welcome to Node.js Backend API, please manually select routes as stipulated:  /public  /user");
   next()
